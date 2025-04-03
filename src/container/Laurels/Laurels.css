@@ -7,8 +7,8 @@
     margin-top: 3rem;
 }
 .app__wrapper_info-img img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 2rem;
 }
 .app__laurels_awards-card{
@@ -34,12 +34,22 @@
     .app__laurels_awards-card{
         min-width: 390px;
     }
+    .app__wrapper_info-img img{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 2rem;
+    }
     
 }
 @media screen and (max-width: 450px){
     .app__laurels_awards-card{
         min-width: 100%;
         margin: 1rem 0;
+    }
+    .app__wrapper_info-img img{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 2rem;
     }
     
 }
